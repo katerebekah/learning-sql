@@ -1,0 +1,1 @@
+SELECT BillingCountry, SUM(Total) AS 'Total' FROM Invoice GROUP BY BillingCountry ORDER BY Total DESC;

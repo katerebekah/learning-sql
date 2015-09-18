@@ -1,0 +1,1 @@
+SELECT Employee.FirstName, Employee.LastName, Count(Customer.CustomerId) as 'Number of Customers' FROM Employee JOIN Customer ON Employee.EmployeeId = Customer.SupportRepId GROUP BY Employee.EmployeeId;
